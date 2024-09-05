@@ -1,0 +1,112 @@
+/*#box{
+    color:blue;
+    background-color: aqua;
+}
+.heading{
+    color:red;
+}
+h1{
+    color:red;
+}
+body{
+    background-color: wheat;
+}
+button{
+    background-color:green;
+}
+
+div{
+    height:100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+div{
+    height:100px;
+    width:100px;
+    background-image: url("nature.jpg");
+    background-size: cover;
+    color:wheat;
+    position:fixed;
+    top:0px;
+
+}
+div{
+    background-color: pink;
+    display:flex;
+    justify-content: space-evenly;
+}
+a{text-decoration: none;
+    color:black;
+    background-color: aqua;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    /*b background-color: red;
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color:cornflowerblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(100, 210, 237) ;
+}
+
+div{
+    height: 200px;
+    width:200px;
+    background-color:black;
+}
+@media(max-width:300px){
+    div{
+        background-color: green;
+    }
+}
+@media(min-width:300px)and(max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+@media(min-width:400px)and(max-width:600px){
+    div{
+        background-color: red;
+    }
+}*/
+
+div{
+    height: 200px;
+    width: 200px;
+     border-radius:50%;
+     border:10px solid red;
+     border-top:10px solid blue;
+     animation: spinanimate 1s ease-in 0s infinite normal;
+    }
+
+@keyframes spinanimate{
+from{
+    transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg);
+}
+}
+
